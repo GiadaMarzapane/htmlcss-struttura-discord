@@ -4,18 +4,29 @@
     padding: 0;
     box-sizing: border-box;
 }
-header .flex-container{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+/* REGOLE GENERALI */
+
 .flex-container{
     display: flex;
     justify-content: center;
+    align-items: center;
+    width: 70%;
+    margin: auto;
+}
+.flex-container1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
 }
 
-main section:nth-of-type(even){
-    background-color: lightgrey;
+.flex-container .main-logo,
+.flex-container .login {
+    min-width: 25%;
+}
+
+.flex-container .main-nav {
+    min-width: 50%;
 }
 
 
@@ -25,21 +36,14 @@ main section:nth-of-type(even){
 
 
 
-
-
-
-/* CLASSE DEBUG */
+/* REGOLE CLASSE DEBUG */
 .debug > header{
     background-color: lightblue;
     min-height: 300px;
-    margin-bottom: 20px;
 }
-.debug div.flex-container{
-    display: flex;
-    align-items: center;
+.debug header div.flex-container{
     min-height: 30px;
-    width: 70%;
-    margin: 10px auto;
+    margin: 15px 0;
     background-color: burlywood;
 }
 
@@ -61,17 +65,18 @@ main section:nth-of-type(even){
 
 .debug .introduction-discord{
     background-color: palevioletred;
-    min-height: 200px;
+    height: 200px;
     width: 60%;
     border: 1px dashed black;
 }
 
-.debug section{
-
+main section:nth-of-type(even) {
+    background-color: lightgrey;
 }
 
 .debug .pink,
-.debug .blue{
+.debug .blue,
+.debug .green{
     border: 1px dashed black;
     height: 200px;
     margin: 15px 0;
@@ -90,5 +95,5 @@ main section:nth-of-type(even){
 .debug .green{
     background-color: green;
     width: 100%;
-    min-height: 500px;
+    min-height: 400px;
 }

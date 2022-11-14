@@ -29,6 +29,10 @@
     min-width: 50%;
 }
 
+footer{
+    min-height: 400px;
+}
+
 
 
 
@@ -96,4 +100,8 @@ main section:nth-of-type(even) {
     background-color: green;
     width: 100%;
     min-height: 400px;
+}
+
+.debug footer{
+    background-color: rgba(21, 21, 21, 0.947);
 }

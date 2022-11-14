@@ -32,6 +32,12 @@
 footer{
     min-height: 400px;
 }
+.flex-container4{
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    margin: auto;
+}
 
 
 
@@ -111,7 +117,6 @@ main section:nth-of-type(even) {
     min-height: 350px;
     margin: auto;
     display: flex;
-    border: 1px dashed wheat;
 }
 .footer-box-pink, .footer-box-blue{
     margin: 15px 0;
@@ -119,12 +124,29 @@ main section:nth-of-type(even) {
 
 .debug .footer-box-pink{
     background-color: rgb(255, 157, 189);
-    width: 20%;
     border: 1px dashed rgb(122, 2, 104);
-}
+    flex-grow: 2;}
 
 .debug .footer-box-blue{
     background-color: blueviolet;
-    width: 20%;
     border: 1px dashed rgb(65, 1, 85);
+    flex-grow: 1;
+}
+.debug footer > main{
+    border-bottom: 1px solid white;
+}
+
+.debug .flex-container4{
+    background-color: aquamarine;
+    margin-top: 10px;
+}
+ 
+.footer-logo, 
+.footer-bottone{
+    border: 1px dashed black;
+    background-color: yellowgreen;
+    width: 70px;
+    height: 30px;
+    margin: 10px 0;
+    text-align: center;
 }

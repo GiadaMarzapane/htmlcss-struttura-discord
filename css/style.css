@@ -105,3 +105,26 @@ main section:nth-of-type(even) {
 .debug footer{
     background-color: rgba(21, 21, 21, 0.947);
 }
+
+.debug .flex-container3{
+    width: 70%;
+    min-height: 350px;
+    margin: auto;
+    display: flex;
+    border: 1px dashed wheat;
+}
+.footer-box-pink, .footer-box-blue{
+    margin: 15px 0;
+}
+
+.debug .footer-box-pink{
+    background-color: rgb(255, 157, 189);
+    width: 20%;
+    border: 1px dashed rgb(122, 2, 104);
+}
+
+.debug .footer-box-blue{
+    background-color: blueviolet;
+    width: 20%;
+    border: 1px dashed rgb(65, 1, 85);
+}
